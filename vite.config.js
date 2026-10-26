@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/d3react-l1/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
